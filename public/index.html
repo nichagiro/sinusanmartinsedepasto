@@ -1272,7 +1272,7 @@
       }
 
       if (admin.pass == password && admin.user == userName)
-        return ""
+        return window.location.href = window.location.origin + "/dashboard.html"
       else
         alert("Usuario o clave incorrecta")
 
